@@ -1,1 +1,0 @@
-# libpolarssl.a
