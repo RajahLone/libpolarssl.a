@@ -13,8 +13,8 @@ Targets: 68000, 68020-060, ColdFire
    ```mkdir ./library```  
 
 - get [mbedtls-1.3.22-gpl.tgz](https://ptonthat.fr/files/polarssl/mbedtls-1.3.22-gpl.tgz), you'll need only to unpack  
-   ```./library/*.c``` and  
-   ```./include/polarssl/*.h``` to the present folders.  
+   ```./include/polarssl/*.h``` and  
+   ```./library/*.c``` to the present folders.  
 
 - create includes folder in target,  
 	```mkdir /opt/cross-mint/m68k-atari-mint/include/polarssl```

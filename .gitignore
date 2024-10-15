@@ -1,5 +1,9 @@
 .DS_Store
-*.xcuserdata
-*.xcsettings
-*.xcuserstate
-XCBuildData
+build/*
+*.xcodeproj
+
+include/polarssl/*.h
+!timing_alt.h
+!config.h
+library/*.c
+!timing_alt.c
