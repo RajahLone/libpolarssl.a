@@ -11,7 +11,7 @@ RANLIB = $(CROSSPREFIX)ranlib
 STRIP = $(CROSSPREFIX)strip
 FLAGS = $(CROSSPREFIX)flags
 
-CFLAGS = -I../include -W -Wdeclaration-after-statement -Wno-array-parameter -Wno-stringop-overflow 
+CFLAGS = -I../include -W -Wno-implicit-function-declaration -Wno-array-parameter -Wno-stringop-overflow -Wno-unused-parameter -Wno-builtin-declaration-mismatch
 OFLAGS = -Wall -O2 -fomit-frame-pointer
 
 OBJS =  aes.o aesni.o arc4.o asn1parse.o asn1write.o base64.o bignum.o blowfish.o camellia.o ccm.o certs.o cipher.o cipher_wrap.o ctr_drbg.o debug.o des.o dhm.o \
