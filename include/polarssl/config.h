@@ -144,7 +144,7 @@
  *
  * Enable this layer to allow use of alternative memory allocators.
  */
-#define POLARSSL_PLATFORM_MEMORY
+//#define POLARSSL_PLATFORM_MEMORY
 
 /**
  * \def POLARSSL_PLATFORM_NO_STD_FUNCTIONS
