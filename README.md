@@ -19,7 +19,7 @@ Targets: 68000, 68020-060, ColdFire
 - create includes folder in target,  
 	```mkdir /opt/cross-mint/m68k-atari-mint/include/polarssl```
 
-- get [polarssl_r9_src.zip](https://ptonthat.fr/files/polarssl/polarssl_r9_src.zip) and unpack the contents of /libpolarssl.a/ to  
+- get [libpolarssl.a.r9.zip](https://ptonthat.fr/files/polarssl/sources/libpolarssl.a.r9.zip) and unpack the contents of /libpolarssl.a/ to  
    ```./README.md```  
    ```./Makefile```  
    ```./include/polarssl/config.h```  
